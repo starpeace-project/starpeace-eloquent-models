@@ -1,0 +1,20 @@
+{
+    "name": "starpeace-project/starpeace-eloquent-models",
+    "description": "This package provides the Eloquent models for the Starpeace Project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ron Appleton",
+            "email": "ron.appleton@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Starpeace\\Models\\Eloquent\\Api\\": "src/Eloquent/Api/",
+            "Starpeace\\Models\\Eloquent\\Common\\": "src/Eloquent/Common/",
+            "Starpeace\\Models\\Eloquent\\Controller\\": "src/Eloquent/Controller/"
+        }
+    }
+}
