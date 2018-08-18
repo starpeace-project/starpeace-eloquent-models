@@ -6,6 +6,11 @@
 <h1>Starpeace Eloquent Models</h1>
 <!-- /TITILE -->
 
+<!-- BADGES/ -->
+![GitHub release](https://img.shields.io/badge/Release-v0.0.0-brightgreen.svg) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/starpeace-project/starpeace-lumen-api-interface/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/starpeace-project/starpeace-lumen-api-interface/) [![Build Status](https://travis-ci.org/starpeace-project/starpeace-lumen-api-interface.svg?branch=master)](https://travis-ci.org/starpeace-project/starpeace-lumen-api-interface) [![Discourse chat](https://img.shields.io/badge/Discourse-Chat-blue.svg)](https://discord.gg/TF9Bmsj)
+[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)  
+<!-- /BADGES -->
+
 <!-- DESCRIPTION/ -->
 This is the repository for the Eloquent models used throughout the Starpeace Project, whether that be the API, the Controller, or elsewhere. 
 <!-- /DESCRIPTION -->
@@ -18,7 +23,7 @@ This is the repository for the Eloquent models used throughout the Starpeace Pro
 
 <h2>History</h2>
 
-<a href="https://github.com/starpeace-project/starpeace-lumen-api-interface/releases">Discover the release history by heading on over to the releases page.</a>
+<a href="https://github.com/starpeace-project/starpeace-eloquent-models/releases">Discover the release history by heading on over to the releases page.</a>
 
 <!-- /HISTORY -->
 
@@ -45,7 +50,7 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 <ul>
-<li><a href="https://github.com/ronappleton">Ron Appleton</a> — <a href="https://github.com/starpeace-project/starpeace-lumen-api-interface/commits?author=ronappleton" title="View the GitHub contributions of Ron Appleton on repository starpeace-project/starpeace-lumen-api-interface">view contributions</a></li>
+<li><a href="https://github.com/ronappleton">Ron Appleton</a> — <a href="https://github.com/starpeace-project/starpeace-eloquent-models/commits?author=ronappleton" title="View the GitHub contributions of Ron Appleton on repository starpeace-project/starpeace-eloquent-models">view contributions</a></li>
 </ul>
 
 <!-- /BACKERS -->
