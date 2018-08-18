@@ -7,7 +7,7 @@
 <!-- /TITILE -->
 
 <!-- BADGES/ -->
-![GitHub release](https://img.shields.io/badge/Release-v0.0.0-brightgreen.svg) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/starpeace-project/starpeace-eloquent-models/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/starpeace-project/starpeace-eloquent-models/) [![Build Status](https://travis-ci.org/starpeace-project/starpeace-lumen-api-interface.svg?branch=master)](https://travis-ci.org/starpeace-project/starpeace-lumen-api-interface) [![Discourse chat](https://img.shields.io/badge/Discourse-Chat-blue.svg)](https://discord.gg/TF9Bmsj)
+![GitHub release](https://img.shields.io/badge/Release-v0.0.0-brightgreen.svg) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/starpeace-project/starpeace-eloquent-models/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/starpeace-project/starpeace-eloquent-models/) [![Build Status](https://travis-ci.org/starpeace-project/starpeace-eloquent-models.svg?branch=master)](https://travis-ci.org/starpeace-project/starpeace-eloquent-models) [![Discourse chat](https://img.shields.io/badge/Discourse-Chat-blue.svg)](https://discord.gg/TF9Bmsj)
 [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)  
 <!-- /BADGES -->
 
