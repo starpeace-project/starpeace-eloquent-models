@@ -14,6 +14,6 @@ class Galaxy extends BaseModel
 
     public function type()
     {
-        return $this->hasOne(GalaxyType::class);
+        return $this->hasOne(GalaxyType::class, 'id', 'galaxy_type_id');
     }
 }
