@@ -11,4 +11,6 @@ class MapCategory extends BaseModel
     protected $fillable = ['name', 'display_name'];
 
     protected $dates = ['created_at', 'updated_at'];
+
+    protected $dateFormat ='Y-m-d H:i:s';
 }

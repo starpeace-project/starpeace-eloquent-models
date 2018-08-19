@@ -11,4 +11,6 @@ class Galaxy extends BaseModel
     protected $fillable = [ 'galaxy_type_id', 'galaxy_owner_id', 'name', 'display_name'];
 
     protected $dates = [ 'created_at', 'updated_at'];
+
+    protected $dateFormat ='Y-m-d H:i:s';
 }
