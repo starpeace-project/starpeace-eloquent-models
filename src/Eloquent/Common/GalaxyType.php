@@ -12,10 +12,4 @@ class GalaxyType extends BaseModel
 
     protected $dates = [ 'created_at', 'updated_at'];
 
-    protected $dateFormat ='Y-m-d H:i:s';
-
-    protected $casts = [
-        'created_at' => 'datetime:Y-m-d H:i:s',
-        'updated_at' => 'datetime:Y-m-d H:i:s',
-    ];
 }
