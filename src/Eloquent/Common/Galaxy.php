@@ -19,6 +19,6 @@ class Galaxy extends BaseModel
 
     public function worlds()
     {
-        $this->hasMany(World::class, 'galaxy_id', 'id');
+        return $this->hasMany(World::class, 'galaxy_id', 'id');
     }
 }
