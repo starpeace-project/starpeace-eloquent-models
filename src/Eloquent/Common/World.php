@@ -17,5 +17,8 @@ class World extends BaseModel
         return $this->belongsTo(Galaxy::class, 'id', 'galaxy_id');
     }
 
-
+    public function tycoons()
+    {
+        return $this->hasManyThrough(Tycoon::class, WorldTycoon::class, 'tycoon_id', 'world_id');
+    }
 }
