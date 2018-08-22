@@ -14,6 +14,11 @@ class Tycoon extends BaseModel
 
     public function worlds()
     {
-        return $this->hasManyThrough(World::class, WorldTycoon::class, 'tycoon_id', 'world_id');
+        return $this->hasMany(WorldTycoon::class);
+    }
+
+    public function worldTycoon()
+    {
+        return $this->belongsTo(WorldTycoon::class);
     }
 }
