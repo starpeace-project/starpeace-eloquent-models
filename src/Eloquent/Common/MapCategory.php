@@ -12,4 +12,8 @@ class MapCategory extends BaseModel
 
     protected $dates = ['created_at', 'updated_at'];
 
+    public function map()
+    {
+        return $this->belongsTo(Map::class, 'map_category_id', 'id');
+    }
 }

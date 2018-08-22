@@ -12,4 +12,10 @@ class World extends BaseModel
 
     protected $dates = [ 'created_at', 'updated_at' ];
 
+    public function galaxy()
+    {
+        return $this->belongsTo(Galaxy::class, 'id', 'galaxy_id');
+    }
+
+
 }
