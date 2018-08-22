@@ -2,13 +2,14 @@
 
 namespace Starpeace\Models\Eloquent\Common;
 
+use Carbon\Carbon;
 use Starpeace\Models\Eloquent\BaseModel;
 
 class WorldTycoon extends BaseModel
 {
     protected $table = 'worlds_tycoons';
 
-    protected $fillable = [ 'world_id', 'tycoon_id' ];
+    protected $fillable = ['world_id', 'tycoon_id', 'last_request', 'last_location_x', 'last_location_y'];
 
     public function world()
     {
@@ -18,5 +19,10 @@ class WorldTycoon extends BaseModel
     public function tycoon()
     {
         return $this->hasOne(Tycoon::class);
+    }
+
+    public function scopeOnline($query)
+    {
+        $query->whereBetween('last_request', Carbon::now(), Carbon::now()->subMinute(15));
     }
 }

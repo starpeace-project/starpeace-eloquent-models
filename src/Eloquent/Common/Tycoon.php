@@ -21,4 +21,9 @@ class Tycoon extends BaseModel
     {
         return $this->belongsTo(WorldTycoon::class);
     }
+
+    public function scopeInitial($query, $initial)
+    {
+        return $query->where('name', 'LIKE', $initial . '%');
+    }
 }
