@@ -34,7 +34,7 @@ This is the repository for the Eloquent models used throughout the Starpeace Pro
 
 <ul>
 <li><a href="https://github.com/rwampler">Ross Wampler</a></li>
-<li><a href="https://www.linkedin.com/in/ron-appleton-b3066318/">Ron Appleton</a></li>
+<li><a href="https://github.com/ronappleton">Ron Appleton</a></li>
 </ul>
 
 <h3>Maintainers</h3>
@@ -42,7 +42,7 @@ This is the repository for the Eloquent models used throughout the Starpeace Pro
 These amazing people are maintaining this project:
 
 <ul>
-<li><a href="https://www.linkedin.com/in/ron-appleton-b3066318/">Ron Appleton</a></li>
+<li><a href="https://github.com/ronappleton">Ron Appleton</a></li>
 <li><a href="https://github.com/rwampler">Ross Wampler</a></li>
 </ul>
 
