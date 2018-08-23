@@ -24,7 +24,7 @@ class WorldTycoon extends BaseModel
     public function scopeOnline($query)
     {
         $now = Carbon::now()->toDateTimeString();
-        $ten_minutes_ago = Carbon::now()->subMinute(60)->toDateTimeString();
+        $ten_minutes_ago = Carbon::now()->subMinute(10)->toDateTimeString();
         return $query->whereBetween('last_request', [$ten_minutes_ago, $now]);
     }
 }
