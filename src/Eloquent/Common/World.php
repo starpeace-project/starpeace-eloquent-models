@@ -22,8 +22,30 @@ class World extends BaseModel
         return $this->hasMany(WorldTycoon::class);
     }
 
-    public function worldTycoon()
+    public function worldTycoons()
     {
-        $this->belongsTo(WorldTycoon::class);
+        return $this->hasMany(WorldTycoon::class);
+    }
+
+    public function online()
+    {
+        return $this->hasMany(WorldTycoon::class);
+    }
+
+    public function investors()
+    {
+        return $this->hasMany(WorldTycoon::class);
+    }
+
+    public function scopeOnlineCount($query)
+    {
+        return $query->withCount(['online' => function ($query) {
+            $query->online();
+        }]);
+    }
+
+    public function scopeInvestorCount($query)
+    {
+        return $query->withCount('investors');
     }
 }
