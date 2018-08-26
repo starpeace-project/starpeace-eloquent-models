@@ -18,7 +18,7 @@ class WorldTycoon extends BaseModel
 
     public function tycoon()
     {
-        return $this->hasOne(Tycoon::class);
+        return $this->hasOne(Tycoon::class, 'id', 'tycoon_id');
     }
 
     public function scopeOnline($query)
