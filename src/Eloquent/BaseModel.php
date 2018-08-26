@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class BaseModel extends Model
 {
     public $timestamps = false;
-    
+
     protected $dateFormat ='Y-m-d H:i:s';
 
     protected $casts = [
