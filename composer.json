@@ -19,7 +19,7 @@
   "type": "library",
   "require": {
     "phpunit/phpunit": "^7.3",
-    "illuminate/database": "^5.6",
+    "illuminate/database": "^5.6 || ^6.0",
     "doctrine/dbal": "^2.8"
   },
   "autoload": {
